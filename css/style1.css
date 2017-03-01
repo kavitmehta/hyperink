@@ -1,0 +1,166 @@
+/**
+/*______________________ PROPERTY DETAILS TAB ___________*/
+
+.property_details_tab {
+	background: url(css/images/home/7.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height:731px;
+	margin-top:94px;
+	margin-bottom: 92px;
+}
+.property_details_tab .overlay {
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.77);
+	padding-top: 100px;
+}
+
+.property_details_tab .tab_nav_holder {
+	background: rgba(0,0,0,0.57);
+	padding-bottom: 1px;
+}
+.property_details_tab .tab_nav_holder h2 {
+	text-transform: uppercase;
+	color:#fff;
+	text-align: center;
+	line-height: 55px;
+	background: #4dc2e6;
+}
+.property_details_tab .tab_nav_holder ul {
+	background: #000000;
+	margin:25px;
+	border:none;
+}
+.property_details_tab .tab_nav_holder ul li {
+	display: block;
+	width: 100%;
+	border-radius:0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.property_details_tab .tab_nav_holder ul li a {
+	border-radius: 0;
+	border:none;
+	border-bottom: 1px solid transparent;
+	margin:0;
+	position: relative;
+	padding: 19px 15px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.property_details_tab .tab_nav_holder ul li a h5,
+.property_details_tab .tab_nav_holder ul li a h6 {
+	color:#fff;
+}
+.property_details_tab .tab_nav_holder ul li a h5 {
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.property_details_tab .tab_nav_holder ul li a h6 {
+	font-weight: 600;
+}
+.property_details_tab .tab_nav_holder ul li a .name {
+	padding-left: 20px;
+	border-left:1px solid #fff;
+	margin-left:62px;
+}
+.property_details_tab .tab_nav_holder ul li a .icon {
+	position: absolute;
+    top: 21px;
+    left: 26px;
+}
+.property_details_tab .tab_nav_holder ul li a .icon .ficon:before {
+	font-size: 32px;
+}
+.property_details_tab .tab_nav_holder ul li.active a,
+.property_details_tab .tab_nav_holder ul li.active> a:hover,
+.property_details_tab .tab_nav_holder ul li a:hover,
+.property_details_tab .tab_nav_holder ul li a:focus {
+	border:none;
+	border-bottom: 1px solid transparent;
+	background: transparent;
+}
+.property_details_tab .tab_nav_holder ul li.active,
+.property_details_tab .tab_nav_holder ul li:hover {
+	background: #4dc2e6;
+}
+
+
+.property_details_tab .tab-content h2,
+.property_details_tab .tab-content h2:before,
+.property_details_tab .tab-content h4 {
+	color:#fff;
+}
+.property_details_tab .tab-content h4 {
+	line-height: 26px;
+    margin-top: -6px;
+    margin-bottom: 18px;
+}
+.property_details_tab .tab_details .main-title2 {
+	margin-bottom: 50px;
+	margin-top:-7px;
+}
+
+.property_details_tab .tab_details .property_data ul li {
+	display: inline-block;
+	color:#fff;
+}
+.property_details_tab .tab_details .property_data ul li i {
+	font-size: 18px;
+	color:#f4762a;
+	margin-right:11px;
+}
+
+.property_details_tab .tab_details .property_data ul:first-child {
+	margin-top:39px;
+}
+
+.property_details_tab .tab_details .property_data ul:nth-child(2) {
+	margin-top:25px;
+}
+
+.property_details_tab .tab_details .property_data ul:first-child li {
+ margin-right: 49px;
+}
+
+.property_details_tab .tab_details .property_data ul:nth-child(2) li {
+	margin-right:45px;
+}
+
+.property_details_tab .tab_details .property_data ul li:last-child {
+	margin-right:0;
+}
+.property_details_tab .tab_details .property_data>a {
+	line-height: 50px;
+	width:220px;
+	text-align: center;
+	margin-top:45px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.property_details_tab .tab_details .carousel-indicators li {
+	width:12px;
+	height:12px;
+	margin:3px;
+}
+.property_details_tab .tab_details .carousel-indicators li.active {
+	width:12px;
+	height:12px;
+	margin:3px;
+	background: #f4762a;
+	border:1px solid #f4762a;
+}
+.property_details_tab .tab_details .carousel-indicators {
+	bottom: 8px !important;
+}
+.property_details_tab.property_details_tab_two .tab_details .carousel-indicators li.active {
+	width:12px;
+	height:12px;
+	margin:3px;
+	background: #fff;
+	border:1px solid #fff;
+}
+
