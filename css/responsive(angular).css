@@ -1,0 +1,224 @@
+
+@media (min-width: 992px) {
+	.toggle_dropdown .main_menu li.dropdown_holder .sub-menu li,
+	.toggle_dropdown .main_menu .video_gallery_menu h5 {
+		text-align: center;
+	}
+	
+
+}
+/*End Fix box Layout*/
+@media (min-width: 1199px) and (max-width: 1366px) {
+	.home_gallery_style_two .single_item .hover_overlay .text h4 {
+		font-size: 15px;
+	}
+}
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.property_details_tab.property_details_tab_two .tab_details .property_data ul li,
+	.property_details_tab.property_details_tab_two .tab_details .text,
+	.property_details_tab.property_details_tab_two .tab_details .img_gallery {
+		width:100%;
+		float:none;
+	}
+	
+	.main_menu.menu_style_two .video_gallery_menu,
+	.main_menu.menu_style_three .video_gallery_menu {
+		left:-85px;
+	}
+	
+	.gallery_item_container .single_item .overlay .text h3 {
+		font-size: 20px;
+	}
+	.gallery_item_container .single_item .overlay .text {
+		left:30px;
+	}
+	.gallery_style_three .single_item {
+		width:33.333333%;
+	}
+	.gallery_masonary .single_item h6 {
+		font-size: 16px;
+	}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+
+@media (max-width: 991px) {
+	
+	.main_menu .video_gallery_menu {
+		position: static;
+		transform: scale(1,1);
+	    -webkit-transform:scale(1,1);
+	    -moz-transform:scale(1,1);
+	    -ms-transform:scale(1,1);
+	    -o-transform:scale(1,1);
+	    display: none;
+	    -webkit-transition: none;
+		-o-transition: none;
+		transition: none;
+	}
+	
+	.home_gallery .gallery_item_wrapper .single_item .img_holder>img {
+		width:100%;
+	}
+	.home_gallery .gallery_item_wrapper .single_item:hover .overlay {
+		height:89%;
+	}
+	
+	.about_high_tech .image_gallery {
+		margin-top: 50px;
+	}
+	.about_high_tech .image_gallery .item a {
+		display: block;
+	}
+	.about_high_tech .image_gallery .item a img {
+		width:100%;
+	}
+	
+	.property_details_tab.property_details_tab_two .tab_details .text,
+	.property_details_tab.property_details_tab_two .img_gallery {
+		float:none;
+		width:100%;
+		padding-left: 0;
+	}
+	
+	.single_gallery_propery_details {
+		margin-top:50px;
+	}
+	
+	.toggle_dropdown .main_menu .video_gallery_menu  {
+		margin:0;
+	}
+}
+/*(max-width: 991px)*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.home_gallery .gallery_menu li {
+		padding: 0;
+		font-size: 12px;
+	}
+	
+	
+	.gallery_style_two .single_item,
+	.gallery_style_three .single_item {
+		width:50%;
+	}
+	
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+
+@media (max-width: 767px) {
+	
+	.home_gallery .gallery_menu li {
+		margin-top: 20px;
+	}
+	
+	.gallery_item_container .single_item .overlay .link a {
+		width: 50px;
+	    line-height: 50px;
+	    height: 50px;
+	    font-size: 20px;
+	}
+	.gallery_item_container .single_item .overlay .text h3 {
+		font-size: 20px;
+	}
+	.gallery_item_container .single_item .overlay .text {
+		left:25px;
+	}
+	.gallery_style_one .single_item,
+	.gallery_style_two .single_item,
+	.gallery_style_three .single_item {
+		width:100%;
+		float:none;
+		margin:-2px 0;
+	}
+	.gallery_wrapper .gallery_item_container.container {
+		overflow: hidden;
+	}
+	.isotop_item {
+	    width: 98%;
+	    left:0 !important;
+	}
+	.gallery_masonary .single_item h6 {
+		font-size: 16px;
+	}
+	
+}
+/*(max-width: 767px)*/
+
+
+
+
+@media (max-width: 630px) and (min-width: 542px) {
+	.gallery_wrapper .gallery_menu li {
+	    padding: 0 12px;
+	}
+}
+
+
+@media (max-width: 579px) {
+	
+	.gallery_wrapper .page_indicator {
+	    margin-bottom: 100px;
+	}
+	.gallery_wrapper .page_indicator>a {
+	    top: 70px;
+	}
+	
+}
+
+@media (max-width: 549px) {
+	
+	.gallery_wrapper .gallery_menu {
+	    width: 100%;
+	    display: block;
+	}
+	.gallery_wrapper .gallery_menu li {
+	    display: inline-block;
+	    border: 1px solid #f1f1f1 !important;
+	    padding: 0 15px;
+	    line-height: 46px;
+	    margin: 5px 3px;
+	}
+	}
+
+
+
+
+
+@media (max-width: 430px) {
+
+	.gallery_style_four .single_item .overlay .text h6 {
+		font-size: 16px;
+	}
+
+
+
+@media (max-width: 380px) {
+
+	.home_gallery_style_two .single_item .hover_overlay .text h4 {
+		font-size: 15px;
+	}
+	
+	.gallery_item_container .single_item .overlay .link a {
+		width: 40px;
+	    line-height: 40px;
+	    height: 40px;
+	}
+	.gallery_item_container .single_item .overlay .text h3 {
+		font-size: 18px;
+	}
+	.gallery_item_container .single_item .overlay .text {
+		bottom: 25px;
+	}
+	
+	
+}

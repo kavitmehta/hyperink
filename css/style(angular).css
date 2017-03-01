@@ -1,0 +1,346 @@
+/*menubar*/
+/*{
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+li{
+    float: right;
+  }
+
+
+.text_logo{color: black}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    background-color: #F2F3F4;
+}
+.class-1{
+    padding-top: 20px;
+        }
+}*/
+
+/*menu dropdown btn*/
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*slider*/
+/* start for zoom in and zoom out effects*/
+.item {
+    transition: display 1500ms linear 0s;
+    overflow:hidden;
+}
+.item.active img {
+    transition: transform 5000ms linear 0s;
+    /* This should be based on your carousel setting. For bs, it should be 5second*/
+    transform: scale(1.05, 1.05);
+}
+/* End for zoom in and zoom out effects*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+@media only screen and (min-width: 1000px) {
+  .responsice_slider{
+    display: none;
+  }  
+}
+
+@media only screen and (max-width: 1000px) {
+  .normal-slider{
+    display: none;
+  }  
+}
+
+.regularSliderFontSize{
+                       font-size: 30px;
+                      }
+
+
+.responsiveSliderFontSize{
+    font-size: 27px;
+}
+
+/*gallery*/
+
+@media only screen and (min-width: 1000px){
+#for-padding{
+    padding-left: 5%;
+}
+}
+
+
+@media only screen and (max-width: 700px){
+#responsiveWidth{
+    width: 100%;
+}
+}
+
+
+@media only screen and (min-width: 1000px){
+.galleryPhotos{
+    margin-left: 62px;
+    margin-top: 25px;
+}
+}
+
+@media only screen and (max-width: 700px){
+.galleryPhotos{
+        max-width: 100%;
+ margin-top: 30px;
+}
+}
+
+/*parallax effect*/
+.parallax{
+     /* The image used */
+    background-image: url("images/home/1.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+background-color: rgba(0,0,0,0.7);
+min-height: 600px;
+}
+
+#parallaxId{
+    padding: 6%  0  2% 6%;
+    color: white;
+}
+@media only screen and (min-width: 1000px){
+#ctn1{
+    width: 33%;
+    float: left;
+    padding-left: 5%;
+}
+}
+
+.regularSliderParallaxFontSize{
+    font-size: 18px;
+}
+.overlay1{
+    list-style: none;
+    max-height: 600px;
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+#hoverEffects:hover{
+    background-color: #4dc2e6;
+}
+
+.align-center{text-align: center;}
+/*End Of Parallax effect*/
+
+
+/*______________________ HOME GALLERY ____________________*/
+.home_gallery {
+    overflow: hidden;
+}
+.home_gallery .gallery_menu_wrapper {
+    text-align: center;
+    margin-top:50px;
+}
+.home_gallery .gallery_menu li {
+    display: inline-block;
+    background: #f7f7f7;
+    color:#252525;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 45px;
+    cursor: pointer;
+    padding: 0 7px;
+    position: relative;
+    margin:0 23px;  
+}
+.home_gallery .gallery_menu li:after,
+.home_gallery .gallery_menu li:before {
+    content:'';
+    width:100%;
+    height:100%;
+    background: #f7f7f7;
+    position: absolute;
+    top:0;
+    z-index: -1;
+    transform: skew(45deg);
+    -webkit-transform:skew(45deg);
+    -moz-transform:skew(45deg);
+    -ms-transform:skew(45deg);
+    -o-transform:skew(45deg);
+    -webkit-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+}
+.home_gallery .gallery_menu li:before {
+    left:23px;
+}
+.home_gallery .gallery_menu li:after {
+    right:23px;
+}
+.home_gallery .gallery_menu li:first-child:after {
+    display: none;
+}
+.home_gallery .gallery_menu li:first-child {
+    padding-left: 18px;
+}
+.home_gallery .gallery_menu li:last-child:before {
+    display: none;
+}
+.home_gallery .gallery_menu li:last-child {
+    padding-right: 18px;
+}
+.home_gallery .gallery_menu li.active,
+.home_gallery .gallery_menu li:hover,
+.home_gallery .gallery_menu li.active:after,
+.home_gallery .gallery_menu li.active:before,
+.home_gallery .gallery_menu li:hover:after,
+.home_gallery .gallery_menu li:hover:before {
+    background: #f4762a;
+    color:#fff;
+}
+.home_gallery .gallery_item_wrapper {
+    margin-top:40px;
+    overflow: hidden;
+}
+.home_gallery .gallery_item_wrapper .single_item {
+    margin-bottom: 30px;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder {
+    position: relative;
+    overflow: hidden;
+}
+.home_gallery .gallery_item_wrapper .mix {
+    display: none;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .overlay {
+    position: absolute;
+    width:100%;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(77,194,230,0.9);
+    top:0;
+    left:0;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .overlay span {
+    display: table;
+    width:100%;
+    height:100%;
+}
+
+.home_gallery .gallery_item_wrapper .single_item .img_holder .overlay span a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .overlay span a i {
+    width:55px;
+    height: 55px;
+    border:1px solid #fff;
+    line-height: 55px;
+    text-align: center;
+    color:#fff;
+    font-size: 18px;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .title {
+    position: absolute;
+    display: inline-block;
+    width:100%;
+    bottom: -75px;
+    opacity: 0;
+    visibility: hidden;
+    left:0;
+    background: #f7f7f7;
+    padding: 15px 0 14px 95px;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .title h5 {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .title i {
+    color:#4dc2e6;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .title .icon {
+    width:75px;
+    height:100%;
+    background: #f4762a;
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: center;
+}
+.home_gallery .gallery_item_wrapper .single_item .img_holder .title .icon .ficon:before {
+    line-height:74px;
+    font-size: 39px;
+}
+.home_gallery .gallery_item_wrapper .single_item:hover .img_holder .title {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.home_gallery .gallery_item_wrapper .single_item:hover .overlay {
+    height:79%;
+    opacity: 1;
+    visibility: visible;
+}
+.home_gallery a.view_more {
+    width:160px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin:20px auto 0 auto;
+    display: block;
+}
+/*end of home gallery*/
+
+
